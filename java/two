@@ -1,1 +1,37 @@
+// public class Aassignment_two {
+    
+// }
 
+
+// Assignment 2 
+
+// 1. Write a class represent astronomical objects. The class attributes type and size (diameter in 
+// miles). For simplicity limit the types of objects to star, planet and satellite (moon). Create a 
+// list of astronomical objects. Sort the list so that stars come first, followed by planets and 
+// satellites. Objects of same type are sorted in descending order by their size.
+
+
+// 2. Write a class to represent a Person. Attributes are firstName, lastName, place of birth and 
+// date of birth. Use LocalDate class for the date of birth. Create a list of persons with 
+// different dates of birth. Prompt the user for a date of birth (informing the user which format 
+// to use) and print persons with that date of birth. If no birthdays on that day, print an 
+// informative message.
+
+
+// 3. Write JUnit 5 tests for the above 2. Write test cases that test “happy path” cases - 
+// assuming proper inputs and successful returns.
+
+
+// 4. Given a file with population data in csv format. The file contains city, state, country and 
+// population as in:
+// city,state,country,population
+// San Jose,California,USA,100000
+// Bangalore,Karnataka,India,200000
+// Write a class to represent each row in the file. Read the file using streaming API and load file 
+// content into memory as a list of files. (Assume file is small and memory is not an issue) Print all 
+// cities with population above a threshold.
+
+
+// 5. Use the class defined in problem 1. Create a list of astronomical objects of different types 
+// and sizes. Use Collectors.partitioningBy API in JDK to partition the list by the type of 
+// object.
